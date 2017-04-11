@@ -1,0 +1,6 @@
+coverage_service: coveralls
+xcodeproj: Gluten.xcodeproj
+scheme: Gluten
+source_directory: Gluten
+ignore:
+  - GlutenTests/*
