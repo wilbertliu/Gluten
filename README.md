@@ -3,12 +3,12 @@
 [![Build Status](https://travis-ci.org/wilbertliu/Gluten.svg?branch=master)](https://travis-ci.org/wilbertliu/Gluten)
 [![Coverage Status](https://coveralls.io/repos/github/wilbertliu/Gluten/badge.svg?branch=master)](https://coveralls.io/github/wilbertliu/Gluten?branch=master)
 
-Unify XIB with it's code.
+Unify XIB with its code.
 
 ## Background
 
 We always try to generalize some views that would be used in different places throughout the app.
-And one approach that we usually do is to make XIB along with it's code.
+And one approach that we usually do is to make XIB along with its code.
 
 But as we know, the XIB and it's code don't automatically *connected*.
 And we tend do these things to make them connected :
