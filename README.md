@@ -1,6 +1,7 @@
 # Gluten
 
 [![Build Status](https://travis-ci.org/wilbertliu/Gluten.svg?branch=master)](https://travis-ci.org/wilbertliu/Gluten)
+[![Coverage Status](https://coveralls.io/repos/github/wilbertliu/Gluten/badge.svg?branch=master)](https://coveralls.io/github/wilbertliu/Gluten?branch=master)
 
 Unify XIB with it's code.
 
