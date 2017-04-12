@@ -10,7 +10,7 @@ Unify XIB with its code.
 We always try to generalize some views that would be used in different places throughout the app.
 And one approach that we usually do is to make XIB along with its code.
 
-But as we know, the XIB and it's code don't automatically *connected*.
+But as we know, the XIB and its code don't automatically *connected*.
 And we tend do these things to make them connected :
 1. Instantiate the NIB.
 2. Add the loaded NIB as a subview.
