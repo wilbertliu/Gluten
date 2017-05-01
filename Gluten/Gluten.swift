@@ -19,7 +19,7 @@ extension UIView {
 
         if let nib = bundle.loadNibNamed(className, owner: self, options: nil)?.first as? UIView {
             nib.translatesAutoresizingMaskIntoConstraints = false
-            addSubview(nib)
+            self.insertSubview(nib, at: 0)
 
             let leadingConstraint = NSLayoutConstraint(
                 item: nib,
@@ -61,7 +61,9 @@ extension UIView {
                 constant: 0
             )
 
-            addConstraints([leadingConstraint, trailingConstraint, topConstraint, bottomConstraint])
+            self.addConstraints(
+                [leadingConstraint, trailingConstraint, topConstraint, bottomConstraint]
+            )
         }
     }
 }
