@@ -1,5 +1,6 @@
 # Gluten
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/wilbertliu/Gluten.svg?branch=master)](https://travis-ci.org/wilbertliu/Gluten)
 [![Coverage Status](https://coveralls.io/repos/github/wilbertliu/Gluten/badge.svg?branch=master)](https://coveralls.io/github/wilbertliu/Gluten?branch=master)
 
@@ -21,6 +22,12 @@ What we have to do is calling one function inside our view's code. Yes, just tha
 Follow the steps below to see how it goes.
 
 ## Installation
+
+### Carthage
+
+```
+github "wilbertliu/Gluten"
+```
 
 ### CocoaPods
 
